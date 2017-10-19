@@ -145,3 +145,5 @@ public var RouteControllerMinimumBacktrackingDistanceForRerouting: CLLocationDis
  Minimum number of consecutive location updates moving backwards before the user is rerouted.
  */
 public var RouteControllerMinimumNumberLocationUpdatesBackwards = 3
+
+let FasterRouteFoundEvent = "fasterRouteFound"
